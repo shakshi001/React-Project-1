@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav button {
+  all: unset;
+  padding: 2px 5px;
+  background-color: var(--red);
+  color: black;
+  font-weight: 500;
+  border: none;
+  height: 30px;
+  width: 40px;
+  /* background-color: yellow; */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
+.logo img {
+  height: 4vh;
+  width: 4vw;
+  /* background-color: yellow; */
+}
+
+.hero {
+  display: flex;
+  /* background-color: #d01c28; */
+}
+
+.hero-content {
+  height: 100%;
+  width: 70%;
+  /* background-color: yellow; */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-content {
+  font-weight: 800;
+  font-size: 58px;
+  margin-top: 10px;
+  line-height: 102px;
+}
+
+.side-content {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 10px;
+  color: #5a5959;
+}
+.brand-icon img {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.hero-image {
+  height: 100%;
+  width: 70%;
+  /* background-color: black; */
+}
+
+.hero-image img {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  height: 41px;
+  width: 290px;
+  /* background-color: #d01c28; */
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.btn-1 {
+  background-color: #d01c28;
+  border: none;
+  font-size: 21px;
+  color: aliceblue;
+}
+
+.btn-2 {
+  color: #5a5959;
+  font-size: 21px;
+}
+.shopping p {
+  color: #5a5959;
+  font-weight: 200;
+}
